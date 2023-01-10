@@ -8,7 +8,6 @@ function App() {
         <header className="App-header">
           <Dictionary />
         </header>
-        <h1>Hello Worldd</h1>
       </div>
     </div>
   );
