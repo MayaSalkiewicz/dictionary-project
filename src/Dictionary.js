@@ -3,9 +3,16 @@ import axios from "axios";
 
 export default function Dictionary() {
   let [keyWord, setKeyWord] = useState("");
+
+  function handleResponse(response) {
+    console.log(response.data[0]);
+  }
+
   function searchWordMeaning(event) {
     event.preventDefault();
-    alert(`Search ${keyWord}`);
+
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyWord}`;
+    axios.get(apiUrl).then(handleResponse);
   }
 
   function handleChange(event) {
