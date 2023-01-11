@@ -12,6 +12,16 @@ function App() {
           <Dictionary defaultKeyword={"happiness"} />
         </div>
       </div>
+      <div className="signature">
+        Coded by{" "}
+        <a
+          href="https://github.com/MayaSalkiewicz"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Maya Salkiewicz
+        </a>
+      </div>
     </div>
   );
 }

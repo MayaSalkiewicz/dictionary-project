@@ -18,3 +18,18 @@ body {
   width: 180px;
   opacity: 0.6;
 }
+
+.signature {
+  text-align: center;
+  color: #333;
+}
+
+.signature a {
+  text-decoration: none;
+  color: #f9a6ba;
+  transition: color 150ms ease-in-out;
+}
+
+.signature a:hover {
+  color: pink;
+}
