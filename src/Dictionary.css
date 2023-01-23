@@ -24,3 +24,24 @@
   margin-top: 11px;
   font-size: 13px;
 }
+
+@media (max-width: 550px) {
+  .Dictionary section {
+    padding: 25px;
+    margin: 20px 0;
+  }
+
+  .Dictionary h1 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .Dictionary input {
+    padding: 5px 10px;
+  }
+
+  .Dictionary .hint {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+}

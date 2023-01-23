@@ -33,3 +33,13 @@ body {
 .signature a:hover {
   color: pink;
 }
+
+@media (max-width: 550px) {
+  body {
+    padding: 10px;
+  }
+
+  .Brainflower {
+    width: 120px;
+  }
+}

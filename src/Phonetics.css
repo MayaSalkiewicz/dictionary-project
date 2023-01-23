@@ -22,3 +22,14 @@
   background-color: #f9a6ba;
   color: #ffe0e0;
 }
+
+@media (max-width: 550px) {
+  .Phonetics .phonetics-text {
+    font-size: 13px;
+  }
+
+  .AudioPhonetics button {
+    padding: 5px 11px;
+    font-size: 13px;
+  }
+}

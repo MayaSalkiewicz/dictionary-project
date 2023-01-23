@@ -3,3 +3,9 @@
   font-weight: bold;
   line-height: 1.5;
 }
+
+@media (max-width: 550px) {
+  .Result h2 {
+    font-size: 22px;
+  }
+}
